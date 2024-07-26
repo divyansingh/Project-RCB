@@ -1,0 +1,61 @@
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.create_resume_button {
+    background-color: #007bff;
+    color: white;
+    font-size: 2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create_resume_button:hover {
+    background-color: #0056b3;
+}
+
+.App {
+    background-color: #3b2d6b;
+    color: white;
+    padding: 2rem;
+    font-family: "Cerebri Sans";
+    max-width:50%;
+    text-align: left;
+}
+.AppContainer{
+    margin: 8em;
+    display: inline-block;
+    padding-left: 7em;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-right: 2em;
+    min-width: 200px;
+    vertical-align: top;
+    text-align: left !important;
+}
+.button_group {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    line-height: 2em;
+}
