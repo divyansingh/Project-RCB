@@ -7,13 +7,13 @@ import printIcon from '../../imageUtils/printer-icon.png'
 import './css/inputDashboard.css'
 const InputDashboard = () => {
   return (
-      <div className='df fdc fwNW jcse inputDashboard'>
-        <DasboardElements path={profileIcon} alt={'Profile'} />
-        <DasboardElements path={educationIcon} alt={'Profile'} />
-        <DasboardElements path={workIcon} alt={'Profile'} />
-        <DasboardElements path={infoIcon} alt={'Profile'} />
-        <DasboardElements path={printIcon} alt={'Profile'} />
-      </div>
+    <div className='df fdc fwNW jcse inputDashboard'>
+      <DasboardElements path={profileIcon} alt={'Profile'} />
+      <DasboardElements path={educationIcon} alt={'Profile'} />
+      <DasboardElements path={workIcon} alt={'Profile'} />
+      <DasboardElements path={infoIcon} alt={'Profile'} />
+      <DasboardElements path={printIcon} alt={'Profile'} />
+    </div>
   )
 }
 
