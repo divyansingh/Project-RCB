@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='df'>
       <Hero />
-      <img src={HeroImage} style={{ height: 650, width: 600 }} />
+      <img src={HeroImage} style={{ height: 650, width: 600 }} alt={"Reume template"}/>
     </div>
   );
 }

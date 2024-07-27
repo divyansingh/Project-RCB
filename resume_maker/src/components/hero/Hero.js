@@ -16,8 +16,8 @@ const Hero = () => {
                     interviews, opportunities, and job offers.
                 </p>
                 <div className={classes.button_group}>
-                    <Button text="Get started for free" />
-                    <Button text="See preview" secondary />
+                    <Button text="Get started for free" path={'/resume'}/>
+                    <Button text="See preview" secondary path={'/'}/>
                 </div>
             </div>
         </div>

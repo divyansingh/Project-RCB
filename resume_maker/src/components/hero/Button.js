@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import classes from "./css/button.module.css"
 
-const Button=({ text, secondary })=> {
+const Button = ({ text, secondary, path }) => {
   return (
-    <button className={secondary ? classes.secondary : ''}>
+    <Link to={path} className={secondary ? classes.secondary : ''} >
       {text}
-    </button>
+    </Link>
   );
 }
 export default Button
