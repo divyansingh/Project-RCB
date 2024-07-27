@@ -39,6 +39,16 @@
 .df{
   display: flex;
 }
+.fdc{
+  flex-direction: column;
+}
+.fwNW{
+  flex-wrap: nowrap;
+}
+.jcse{
+  justify-content: space-evenly;
+}
+
 body {
   overflow: hidden; /* Hide scrollbars */
 }

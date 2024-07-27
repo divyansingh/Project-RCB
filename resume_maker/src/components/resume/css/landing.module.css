@@ -1,0 +1,30 @@
+.outerContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.resumeContainer {
+    height: 100vh;
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.section {
+    padding: 1rem 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    border-bottom: 1px dashed #000;
+    margin-top: 0.5rem;
+}
